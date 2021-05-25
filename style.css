@@ -5,6 +5,23 @@ font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-seri
 font-weight: normal;
 }
 
+
+button {
+    appearance: auto;
+    box-sizing: border-box;
+    cursor: default;
+    font: 400 13.3333px Arial;
+    letter-spacing: normal;
+    margin: 0em;
+    text-align: center;
+    text-indent: 0px;
+    text-rendering: auto;
+    text-shadow: none;
+    text-transform: none;
+    word-spacing: normal;
+
+}
+
 .nav{
 display: flex;
 justify-content: flex-end;
@@ -48,7 +65,6 @@ align-items: center;
 .create-button{
 background-color: #0077C5;
 border-radius: 4px;
-box-shadow: 0 1px 1px 0 rgb(0 0 0 / 75%);
 color: white;
 cursor: pointer;
 display: inline-block;
@@ -159,3 +175,17 @@ li{
 .sign-up-logos{
     text-align: center;
 }
+
+.sign-in-button{
+    align-items: center;
+    background-color: rgb(0, 119, 197);
+    border: none;
+    border-radius: 3%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    height: 34px;
+    padding: 0px 20px;
+    width: fit-content;
+}
+
+
